@@ -1,12 +1,19 @@
-# React + Vite
+# HITO 2 - Desarrollo Frontend
+Desarrollo de la aplicación cliente con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+_A collaboration between [Melany Menares](https://github.com/milimenares) and [Alexis Olguín](https://github.com/0x000alek)_
 
-Currently, two official plugins are available:
+## 🚀 Instalación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 
-## Expanding the ESLint configuration
+### 1. Clona el repositorio
+### 2. Instala las dependencias: npm install
+### 3. Inicia front y back ficticio:
+npm run dev - npm start
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Frontend - wawita
+Esta es una Aplicación React que consume la API para mostrar productos y gestionar usuarios.
+
+## Backend
+Este back es un reciclaje de un proyecto anterior para realizar la renderización de publicaciones con un JSON de productos, entre otros. Solo tiene fines de prueba y no es bajo ningún caso, el backend final del Proyecto.
