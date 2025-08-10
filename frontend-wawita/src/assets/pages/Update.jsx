@@ -1,9 +1,9 @@
 import ProfileComponent from '../components/ProfileComponent'
 import { useState, useEffect } from "react"
 import { useNavigate, useParams } from "react-router-dom"
-import Swal from "sweetalert2"
 import { useContext } from "react"
 import { ProductContext } from '../context/ProductContext'
+import Swal from "sweetalert2"
 
 const Update = () => {
 
@@ -17,7 +17,6 @@ const Update = () => {
         condition: "",
         price: "",
         stock: "",
-        imageFile: null,
         imageUrl: ""
     })
 
@@ -31,7 +30,6 @@ const Update = () => {
                     condition: product.condition,
                     price: product.price,
                     stock: product.stock,
-                    imageFile: null,
                     imageUrl: product.imageUrl || ""
                 })
             }
@@ -152,7 +150,7 @@ const Update = () => {
                                     />
                                 </div>
 
-                                <div className="form-text mb-3" id="basic-addon4">Puedes subir ó ingresar URL de la imagen</div>
+                                {/* <div className="form-text mb-3" id="basic-addon4">Puedes subir ó ingresar URL de la imagen</div>
 
                                 <div className="input-group mb-3">
                                     <input
@@ -162,7 +160,7 @@ const Update = () => {
                                         className="form-control"
                                         accept="image/*"
                                     />
-                                </div>
+                                </div> */}
 
                                 <div className="input-group">
                                     <span className="input-group-text">URL</span>

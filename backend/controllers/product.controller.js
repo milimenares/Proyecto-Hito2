@@ -58,17 +58,42 @@ export const getProductById = (req, res) => {
 };
 
 export const createProduct = (req, res) => {
-  const products = readData();
-  const userId = req.user?.id
-  const newProduct = {
-    ...req.body,
-    userId: req.user.id,
-    userEmail: req.user.email,
-    createdAt: new Date().toISOString()
+  try {
+    const { title, description, condition, price, stock, imageUrl, userEmail } = req.body;
+
+    if (!title || !description || !condition || !price || !stock || !imageUrl) {
+      return res.status(400).json({ error: "Faltan campos" });
+    }
+
+    const products = readData();
+
+    if (!products) {
+      return res.status(500).json({ error: "Error interno leyendo productos" });
+    }
+
+    // Crear nuevo producto con id único (ejemplo con timestamp)
+    const newProduct = {
+      id: `p${Date.now()}`,
+      title,
+      description,
+      condition,
+      price,
+      stock,
+      imageUrl,
+      userEmail,
+      liked: false // por ejemplo
+    };
+
+    products.push(newProduct);
+
+    writeData(products);
+
+    res.status(201).json(newProduct);
+
+  } catch (error) {
+    console.error("Error en createProduct:", error);
+    res.status(500).json({ error: "Error al crear el producto" });
   }
-  products.push(newProduct);
-  writeData(products);
-  res.status(201).json(newProduct);
 };
 
 export const updateProduct = (req, res) => {

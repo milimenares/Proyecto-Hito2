@@ -18,22 +18,18 @@ const Post = () => {
         condition: "",
         price: "",
         stock: "",
-        imageFile: null,
         imageUrl: "",
         userEmail: user?.email || ""
     })
 
     const handleChange = (e) => {
-        const { name, value, files } = e.target;
-        setFormData({
-            ...formData, [name]: files ? files[0] : value
-        })
+        setFormData({ ...formData, [e.target.name]: e.target.value })
     }
 
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        const { title, description, condition, price, stock, imageFile, imageUrl } = formData
+        const { title, description, condition, price, stock, imageUrl } = formData
 
         if (!formData.title || !formData.description || !formData.condition || !formData.price || !formData.stock) {
             return Swal.fire({
@@ -47,14 +43,6 @@ const Post = () => {
             return Swal.fire({
                 title: "Campos vacíos",
                 text: "No puedes dejar campos vacíos, por favor completa todos los campos",
-                icon: "warning"
-            })
-        }
-
-        if (!imageFile && !imageUrl.trim()) {
-            return Swal.fire({
-                title: "Imagen faltante",
-                text: "Debes subir una imagen o ingresar una URL válida",
                 icon: "warning"
             })
         }
@@ -96,7 +84,6 @@ const Post = () => {
                 condition: "",
                 price: "",
                 stock: "",
-                imageFile: null,
                 imageUrl: "",
                 userEmail: user.email
             })
@@ -181,7 +168,7 @@ const Post = () => {
                                     />
                                 </div>
 
-                                <div className="form-text mb-3" id="basic-addon4">Puedes subir ó ingresar URL de la imagen</div>
+                                {/* <div className="form-text mb-3" id="basic-addon4">Puedes subir ó ingresar URL de la imagen</div>
 
                                 <div className="input-group mb-3">
                                     <input
@@ -191,7 +178,7 @@ const Post = () => {
                                         className="form-control"
                                         accept="image/*"
                                     />
-                                </div>
+                                </div> */}
 
                                 <div className="input-group">
                                     <span className="input-group-text">URL</span>

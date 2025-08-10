@@ -1,9 +1,9 @@
 import { createContext, useState, useEffect } from "react"
 import { getProductsService, createProductService, updateProductService, deleteProductService, getProductByIdService, likeProductService } from "../services/productService"
-import Swal from "sweetalert2"
 import { UserContext } from "./UserContext"
 import { useContext } from "react"
 import { useNavigate } from "react-router-dom"
+import Swal from "sweetalert2"
 
 export const ProductContext = createContext()
 
