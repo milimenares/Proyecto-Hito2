@@ -1,0 +1,190 @@
+[
+  {
+    "id": "p001",
+    "title": "Coche 3 en 1",
+    "description": "Coche para bebé con moisés, silla de auto y asiento reversible. Ideal desde recién nacido.",
+    "price": "199998",
+    "condition": "Nuevo",
+    "stock": "200",
+    "imageFile": null,
+    "imageUrl": "https://bebesit.cl/cdn/shop/files/jo22501t1035han-9-97a2021f-3302-4a72-bab8-ea5052d4714a_426x426.jpg?v=1746462705",
+    "liked": false
+  },
+  {
+    "id": "p002",
+    "title": "Cuna colecho de madera",
+    "description": "Cuna con altura regulable para colecho, incluye colchón y baranda desmontable.",
+    "price": 99990,
+    "condition": "Nuevo",
+    "stock": 1,
+    "imageFile": null,
+    "imageUrl": "https://www.rosen.cl/media/catalog/product/1/6/16023603-2_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=900&width=900&canvas=900:900",
+    "liked": true
+  },
+  {
+    "id": "p003",
+    "title": "Silla de comer plegable",
+    "description": "Silla alta para bebé con bandeja removible y cinturón de seguridad. Fácil de guardar.",
+    "price": 45990,
+    "condition": "Usado",
+    "stock": 33,
+    "imageFile": null,
+    "imageUrl": "https://form.cl/cdn/shop/files/v-muk1081011114r-1-762979e9-be54-4406-90da-f2e32e4f3f12_e9455cb3-7018-4ea7-92ed-4f8a7b9bbe98.jpg?v=1732822973&width=1400",
+    "liked": false
+  },
+  {
+    "id": "p004",
+    "title": "Pack 5 mamaderas 260ml",
+    "description": "Mamaderas anticólicos marca Avent. BPA free. Nuevas en caja.",
+    "price": 24990,
+    "condition": "Nuevo",
+    "stock": 12,
+    "imageFile": null,
+    "imageUrl": "https://media.falabella.com/falabellaCL/143426935_01/w=1500,h=1500,fit=pad",
+    "liked": false
+  },
+  {
+    "id": "p005",
+    "title": "Andador musical",
+    "description": "Andador para bebés con juegos de luces y sonidos. Promueve los primeros pasos.",
+    "price": 34990,
+    "condition": "Usado",
+    "stock": 12,
+    "imageFile": null,
+    "imageUrl": "https://media.falabella.com/falabellaCL/126642226_01/w=1500,h=1500,fit=pad",
+    "liked": false
+  },
+  {
+    "id": "p006",
+    "title": "Mochila porta bebé ergonómica",
+    "description": "Mochila ergonómica con 3 posiciones de carga. Desde 3 hasta 15 kg.",
+    "price": 29990,
+    "condition": "Nuevo",
+    "stock": 12,
+    "imageFile": null,
+    "imageUrl": "https://ergobaby.cl/img/cms/Blog/5-cosas/5-cosas-blog-1.jpg",
+    "liked": false
+  },
+  {
+    "id": "p007",
+    "title": "Set de ropa RN 5 piezas",
+    "description": "Body, enterito, gorro, babero y pantalón. Talla recién nacido.",
+    "price": 15990,
+    "condition": "Nuevo",
+    "stock": 12,
+    "imageFile": null,
+    "imageUrl": "https://media.falabella.com/falabellaCL/883426739_1/w=1500,h=1500,fit=pad",
+    "liked": false
+  },
+  {
+    "id": "p008",
+    "title": "Esterilizador eléctrico",
+    "description": "Esterilizador para mamaderas y chupetes. Rápido y seguro.",
+    "price": 21990,
+    "condition": "Usado",
+    "stock": 12,
+    "imageFile": null,
+    "imageUrl": "https://www.ecobebe.cl/medios/2020/10/calentador-de-mamaderas-1.jpg",
+    "liked": false
+  },
+  {
+    "id": "p009",
+    "title": "Prueba 5",
+    "description": "sssss",
+    "condition": "Nuevo",
+    "price": "1234",
+    "stock": "9",
+    "imageFile": null,
+    "imageUrl": "https://www.ikea.com/cl/es/images/products/sniglar-cuna-haya__0637930_pe698615_s5.jpg?f=xl",
+    "liked": false
+  },
+  {
+    "id": "p010",
+    "title": "Coche 3 en 1",
+    "description": "Coche para bebé con moisés, silla de auto y asiento reversible. Ideal desde recién nacido.",
+    "condition": "Nuevo",
+    "price": "99990",
+    "stock": "1",
+    "imageFile": null,
+    "imageUrl": "https://m.media-amazon.com/images/I/61+-0TS1dQL._UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": "p011",
+    "title": "Cuna 3 en 1 Lovi",
+    "description": "La cuna LOVI es una solución multifuncional diseñada para adaptarse a todas tus necesidades, ya sea en casa o de viaje. Esta cuna 3 en 1 puede utilizarse como cuna mecedora, cuna de viaje y cuna de casa, proporcionando comodidad y seguridad para tu bebé desde el nacimiento hasta que empiece a sentarse (0 a 6 meses, hasta 9 kg).",
+    "condition": "Nuevo",
+    "price": "99000",
+    "stock": "11",
+    "imageFile": null,
+    "imageUrl": "https://mamasmateas.com/cdn/shop/files/cuna-moises-lovi-3-en-1-kinderkraft-295138_5000x_54177468-53aa-4d95-9e41-9cd3503d0624.webp?v=1723063429&width=1426",
+    "userEmail": "wawita@gmail.com"
+  },
+  {
+    "id": "p012",
+    "title": "Silla de comer madera",
+    "description": "Silla alta para bebé con bandeja removible y cinturón de seguridad. Fácil de guardar.",
+    "condition": "Usado",
+    "price": "110000",
+    "stock": "1",
+    "imageFile": null,
+    "imageUrl": "https://form.cl/cdn/shop/files/v-muk1081011114r-1-762979e9-be54-4406-90da-f2e32e4f3f12_e9455cb3-7018-4ea7-92ed-4f8a7b9bbe98.jpg?v=1732822973&width=1400",
+    "userEmail": "hola@gmail.com"
+  },
+  {
+    "id": "p013",
+    "title": "Organizadores Apilables",
+    "description": "Jugueteros Organizadores Apilables de Madera Montessori, pensados para que los niños tengan la libertad e independencia a la hora de jugar. Al ser capaces de ver lo que hay en su interior, alcanzar todos los objetos y volver a guardar y ordenar con facilidad. Diseñado para la altura de los niños. Apilables entre sí vertical y horizontalmente, adaptándoselos a la altura de tus hijos.",
+    "condition": "Nuevo",
+    "price": "60000",
+    "stock": "100",
+    "imageFile": null,
+    "imageUrl": "https://comomono.cl/wp-content/uploads/2022/09/APILABLES.jpg",
+    "userEmail": "hola@gmail.com",
+    "liked": true
+  },
+  {
+    "id": "p014",
+    "title": "Repisa Avión de Madera Basic",
+    "description": "Maravillosas Repisas con forma de Avión de madera,  hechas 100% a mano, inspiración de estilo nórdico, son perfectas y prácticas para decorar y dar un toque lúdico a cualquier espacio de tu casa. Quedan increíbles en cualquier lugar! Darás un ambiente lúdico y estiloso. Ideal instalar a la altura de tus hijos, para mayor autonomía.",
+    "condition": "Nuevo",
+    "price": "44000",
+    "stock": "20",
+    "imageFile": null,
+    "imageUrl": "https://comomono.cl/wp-content/uploads/2022/11/AVION-CHICO-1536x1386.jpg",
+    "userEmail": "hola@gmail.com"
+  },
+  {
+    "id": "p015",
+    "title": "Pack 2 Mamaderas Anti-Cólicos",
+    "description": "Las Mamaderas Closer to Nature de Tommee Tippee son una innovación excepcional para padres y bebés, especialmente diseñadas para facilitar la transición entre la lactancia materna y el uso de mamaderas. Desarrolladas en estrecha colaboración con expertos en lactancia, estas mamaderas buscan replicar la experiencia más natural posible para el bebé, imitando la flexibilidad, el movimiento y la suavidad del pecho materno. Esta característica ha hecho que nueve de cada diez madres confirmen su eficacia para combinar la lactancia materna con el uso de la mamadera, brindando una experiencia de alimentación fluida y cómoda tanto para la madre como para el bebé.",
+    "condition": "Nuevo",
+    "price": "22000",
+    "stock": "50",
+    "imageFile": null,
+    "imageUrl": "https://mamasmateas.com/cdn/shop/files/tommee-tippee-alimentacion-mamadera-tommee-tippee-260-ml-tt42250090-37065129918639.webp?v=1729189670&width=1426",
+    "userEmail": "wawita@gmail.com"
+  },
+  {
+    "id": "p016",
+    "title": "Mochila porta bebé",
+    "description": "Mochila ergonómica con 3 posiciones de carga. Desde 3 hasta 15 kg.",
+    "condition": "Nuevo",
+    "price": "80000",
+    "stock": "20",
+    "imageFile": null,
+    "imageUrl": "https://mamasmateas.com/cdn/shop/files/Disenosintitulo-2024-11-23T125411.170.png?v=1732377258&width=1426",
+    "userEmail": "wawita@gmail.com"
+  },
+  {
+    "id": "p017",
+    "title": "Pack 5 bodies manga larga",
+    "description": "Bodies en punto de algodón suave. Modelo de manga larga con hombros solapados y botones de presión en la entrepierna.",
+    "condition": "Nuevo",
+    "price": "15000",
+    "stock": "35",
+    "imageFile": null,
+    "imageUrl": "https://hmchile.vtexassets.com/unsafe/1280x0/center/middle/https%3A%2F%2Fhmchile.vtexassets.com%2Farquivos%2Fids%2F7334573%2FPack-de-5-bodies-de-manga-larga---Rosa-claro-Corazones---H-M-CL.jpg%3Fv%3D638881441944070000",
+    "userEmail": "wawita@gmail.com",
+    "liked": false
+  }
+]
