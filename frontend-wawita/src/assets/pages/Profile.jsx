@@ -57,7 +57,7 @@ const Profile = () => {
                                 <div key={p.id} className="row justify-content-sm-between justify-content-center mb-4 border-form py-3">
                                     <div className="col-xl-2 col-lg-3 col-md-3 col-sm-4 mb-lg-0 mb-4">
                                         <img
-                                            src={p.imageFile ? URL.createObjectURL(p.imageFile) : p.imageUrl}
+                                            src={p.imageUrl}
                                             alt={p.title}
                                             className="img-fluid product-img-profile"
                                         />

@@ -1,17 +1,5 @@
 [
   {
-    "id": "p1754844472539",
-    "title": "Pijama Algodón grueso",
-    "description": "100% Algodón - 3 Capas de algodón Hipoalergénico.\nDiseños exclusivos.\nDiseñados de algodón exclusivo, transpirable. \nIdeales para invierno",
-    "condition": "Nuevo",
-    "price": "18000",
-    "stock": "30",
-    "imageUrl": "https://www.bombukids.cl/cdn/shop/products/IMG_6677-copia_1296x.jpg?v=1619823502",
-    "userEmail": "wawita@gmail.com",
-    "liked": true,
-    "imageFile": null
-  },
-  {
     "id": "p1754844589969",
     "title": "Pack 2 Mamaderas Anti-Cólicos",
     "description": "Las Mamaderas Closer to Nature de Tommee Tippee son una innovación excepcional para padres y bebés, especialmente diseñadas para facilitar la transición entre la lactancia materna y el uso de mamaderas.",
@@ -20,7 +8,8 @@
     "stock": "12",
     "imageUrl": "https://mamasmateas.com/cdn/shop/files/tommee-tippee-alimentacion-mamadera-tommee-tippee-260-ml-tt42250090-37065129918639.webp?v=1729189670&width=1426",
     "userEmail": "wawita@gmail.com",
-    "liked": false
+    "userName": "Lupe",
+    "liked": true
   },
   {
     "id": "p1754844864755",
@@ -31,6 +20,7 @@
     "stock": "25",
     "imageUrl": "https://hmchile.vtexassets.com/unsafe/1280x0/center/middle/https%3A%2F%2Fhmchile.vtexassets.com%2Farquivos%2Fids%2F7334573%2FPack-de-5-bodies-de-manga-larga---Rosa-claro-Corazones---H-M-CL.jpg%3Fv%3D638881441944070000",
     "userEmail": "wawita@gmail.com",
+    "userName": "Lupe",
     "liked": false
   },
   {
@@ -42,6 +32,7 @@
     "stock": "1",
     "imageUrl": "https://mamasmateas.com/cdn/shop/files/Disenosintitulo-2024-11-23T125411.170.png?v=1732377258&width=1426",
     "userEmail": "wawita@gmail.com",
+    "userName": "Lupe",
     "liked": true
   },
   {
@@ -53,6 +44,7 @@
     "stock": "1",
     "imageUrl": "https://mamasmateas.com/cdn/shop/files/cuna-moises-lovi-3-en-1-kinderkraft-295138_5000x_54177468-53aa-4d95-9e41-9cd3503d0624.webp?v=1723063429&width=1426",
     "userEmail": "wawita@gmail.com",
+    "userName": "Lupe",
     "liked": false
   },
   {
@@ -64,6 +56,7 @@
     "stock": "2",
     "imageUrl": "https://form.cl/cdn/shop/files/v-muk1081011114r-1-762979e9-be54-4406-90da-f2e32e4f3f12_e9455cb3-7018-4ea7-92ed-4f8a7b9bbe98.jpg?v=1732822973&width=1400",
     "userEmail": "hola@gmail.com",
+    "userName": "Nacha",
     "liked": false
   },
   {
@@ -75,7 +68,8 @@
     "stock": "150",
     "imageUrl": "https://comomono.cl/wp-content/uploads/2022/09/APILABLES.jpg",
     "userEmail": "hola@gmail.com",
-    "liked": true
+    "userName": "Nacha",
+    "liked": false
   },
   {
     "id": "p1754845161029",
@@ -86,6 +80,19 @@
     "stock": "111",
     "imageUrl": "https://comomono.cl/wp-content/uploads/2022/11/AVION-CHICO-1536x1386.jpg",
     "userEmail": "hola@gmail.com",
+    "userName": "Nacha",
+    "liked": false
+  },
+  {
+    "id": "p1755280408975",
+    "title": "Pijama Algodón grueso",
+    "description": "100% Algodón - 3 Capas de algodón Hipoalergénico. Diseños exclusivos. Diseñados de algodón exclusivo, transpirable. Ideales para invierno",
+    "condition": "Nuevo",
+    "price": "19000",
+    "stock": "23",
+    "imageUrl": "https://www.bombukids.cl/cdn/shop/products/IMG_6677-copia_1296x.jpg?v=1619823502",
+    "userEmail": "wawita@gmail.com",
+    "userName": "Lupe",
     "liked": false
   }
 ]

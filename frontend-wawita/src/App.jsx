@@ -12,6 +12,7 @@ import Cart from './assets/pages/Cart'
 import Repository from './assets/pages/Repository'
 import Product from './assets/pages/Product'
 import Profile from './assets/pages/Profile'
+import SellerProfile from './assets/pages/SellerProfile'
 import Post from './assets/pages/Post'
 import Favs from './assets/pages/Favs'
 import Update from './assets/pages/Update'
@@ -35,6 +36,7 @@ const App = () => {
                             <Route path="/product/:id" element={<Product />} />
                             <Route path="/repository" element={<Repository />} />
                             <Route path="/profile" element={<Profile />} />
+                            <Route path="/seller/:email" element={<SellerProfile />} />
                             <Route path="/post" element={<Post />} />
                             <Route path="/favs" element={<Favs />} />
                             <Route path="/update/:id" element={<Update />} />

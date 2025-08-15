@@ -23,6 +23,7 @@ const ProductProvider = ({ children }) => {
             console.error(error.message)
         }
     }
+
     const getProductById = async (id) => {
         try {
             const product = await getProductByIdService(id)
@@ -32,6 +33,7 @@ const ProductProvider = ({ children }) => {
             return null
         }
     }
+
     const createProduct = async (productData) => {
         try {
             const newProduct = await createProductService(productData)
@@ -41,6 +43,7 @@ const ProductProvider = ({ children }) => {
             console.error(error)
         }
     }
+
     const updateProduct = async (id, productData) => {
         try {
             const updatedProduct = await updateProductService(id, productData)
@@ -105,7 +108,6 @@ const ProductProvider = ({ children }) => {
         deleteProduct,
         likeProduct,
         products
-
     }
 
     return (

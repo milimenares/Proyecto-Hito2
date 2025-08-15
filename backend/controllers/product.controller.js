@@ -59,7 +59,7 @@ export const getProductById = (req, res) => {
 
 export const createProduct = (req, res) => {
   try {
-    const { title, description, condition, price, stock, imageUrl, userEmail } = req.body;
+    const { title, description, condition, price, stock, imageUrl, userEmail, userName } = req.body;
 
     if (!title || !description || !condition || !price || !stock || !imageUrl) {
       return res.status(400).json({ error: "Faltan campos" });
@@ -71,7 +71,7 @@ export const createProduct = (req, res) => {
       return res.status(500).json({ error: "Error interno leyendo productos" });
     }
 
-    // Crear nuevo producto con id único (ejemplo con timestamp)
+    // Crear nuevo producto con id único
     const newProduct = {
       id: `p${Date.now()}`,
       title,
@@ -81,7 +81,8 @@ export const createProduct = (req, res) => {
       stock,
       imageUrl,
       userEmail,
-      liked: false // por ejemplo
+      userName,
+      liked: false
     };
 
     products.push(newProduct);

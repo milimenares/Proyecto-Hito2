@@ -19,7 +19,8 @@ const Post = () => {
         price: "",
         stock: "",
         imageUrl: "",
-        userEmail: user?.email || ""
+        userEmail: user.email,
+        userName: user.name
     })
 
     const handleChange = (e) => {
@@ -31,7 +32,7 @@ const Post = () => {
 
         const { title, description, condition, price, stock, imageUrl } = formData
 
-        if (!formData.title || !formData.description || !formData.condition || !formData.price || !formData.stock) {
+        if (!formData.title || !formData.description || !formData.condition || !formData.price || !formData.stock || !formData.imageUrl) {
             return Swal.fire({
                 title: "Campos incompletos",
                 text: "Debes rellenar todos los campos para publicar tu producto",
@@ -85,7 +86,8 @@ const Post = () => {
                 price: "",
                 stock: "",
                 imageUrl: "",
-                userEmail: user.email
+                userEmail: user.email,
+                userName: user.name
             })
             navigate('/profile')
             console.log("Producto creado:", formData)

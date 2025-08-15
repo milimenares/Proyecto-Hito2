@@ -32,7 +32,7 @@ const Product = () => {
                 <h1>Productos</h1>
                 <div className="row justify-content-center">
                     <div key={product.id} className="col-md-5 mb-md-0 mb-4">
-                        <img src={product.imageFile ? URL.createObjectURL(product.imageFile) : product.imageUrl} alt={product.title} className="product-img img-fluid product-img-detail border-form" />
+                        <img src={product.imageUrl} alt={product.title} className="product-img img-fluid product-img-detail border-form" />
                     </div>
                     <div className="col-md-7 ps-md-4">
                         <div className="d-flex justify-content-between align-items-start">
@@ -47,6 +47,7 @@ const Product = () => {
                                 </a>
                             </OverlayTrigger>
                         </div>
+                        <h6 className="mb-3">Vendido por: <Link to={`/seller/${product.userEmail}`} className="text-decoration-none">{product.userName}</Link></h6>
                         <h4>{product.title}</h4>
                         <h5>{formatPrice(product.price)}</h5>
                         <p>{product.description}</p>

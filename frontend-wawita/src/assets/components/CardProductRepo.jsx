@@ -19,7 +19,7 @@ const CardProductRepo = ({ products }) => {
                 <div key={p.id} id="products-repo" className="col-xl-3 col-lg-4 col-sm-6 mb-4 d-flex">
                     <div className="product-card flex-grow-1">
                         <div className="product-condition">{p.condition}</div>
-                        <Link to={`/product/${p.id}`}><img src={p.imageFile ? URL.createObjectURL(p.imageFile) : p.imageUrl} alt={p.title} className="product-img" /></Link>
+                        <Link to={`/product/${p.id}`}><img src={p.imageUrl} alt={p.title} className="product-img" /></Link>
                         <Link to={`/product/${p.id}`} className='text-decoration-none'>
                             <div className="product-info">
                                 <h5>{p.title}</h5>

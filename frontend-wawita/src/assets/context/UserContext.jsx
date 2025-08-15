@@ -79,7 +79,6 @@ const UserProvider = ({ children }) => {
                 try {
                     const resData = await getUserProfile(token)
                     setUser(resData)
-                    navigate('/profile')
                 } catch (error) {
                     console.error('Error al obtener usuario:', error)
                     localStorage.removeItem('token')

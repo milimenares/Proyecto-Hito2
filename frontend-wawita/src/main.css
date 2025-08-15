@@ -4,6 +4,15 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+a {
+    color: var(--color-dark);
+    transition: .3s;
+}
+
+a:hover {
+    color: var(--color-primario);
+}
+
 /* HEADER */
 
 #top-header {
@@ -464,6 +473,20 @@ h1 {
     height: 190px;
     width: 100%;
     object-fit: cover;
+}
+
+.toldo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 35px;
+}
+
+.color-acento {
+    color: var(--color-acento);
+}
+
+.color-gray {
+    color: var(--color-gray);
 }
 
 
